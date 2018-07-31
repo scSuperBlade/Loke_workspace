@@ -1,0 +1,8 @@
+#0: blue, 1: red
+Pcanny: 45
+SML: 60
+nGaussianBlurValue: 3
+disThr: 50
+fps: 3
+minArea:200
+maxArea:2500

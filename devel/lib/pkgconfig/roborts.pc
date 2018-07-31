@@ -1,0 +1,8 @@
+prefix=/home/dji/roborts_ws/devel
+
+Name: roborts
+Description: Description of roborts
+Version: 0.5.0
+Cflags: 
+Libs: -L/home/dji/roborts_ws/devel/lib 
+Requires: 

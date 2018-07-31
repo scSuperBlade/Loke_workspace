@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+ 
+<node name="camera" pkg="cvCamera" type="camera" output="screen"/>
+
+</launch>

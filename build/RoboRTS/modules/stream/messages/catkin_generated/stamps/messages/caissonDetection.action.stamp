@@ -1,0 +1,14 @@
+#Send a flag to server to caisson detection the thread start, pause, restart and stop
+#command == 1 start
+#command == 2 pause
+#command == 3 stop
+int32 command
+---
+float32 result
+---
+#feedback
+bool detected
+int32  error_code
+string error_msg
+int16 dis
+bool  isCheck

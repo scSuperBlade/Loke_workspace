@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC   -O3 -DNDEBUG   -shared -Wl,-soname,librrts.so -o /home/dji/roborts_ws/devel/lib/librrts.so CMakeFiles/rrts.dir/rrts.cpp.o 

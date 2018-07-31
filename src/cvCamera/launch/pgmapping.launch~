@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<launch>
+	<arg name="gui" value="true"/>   -->
+	<arg name="lms" default="$(find lms1xx )/urdf/sick_lms1xx.urdf.xacro"/>-->
+
+ <!-- <param name="use_gui" value="$(arg gui)"/>     -->
+  <param name="/use_sim_time" value="false" />
+  <param name="robot_description" command="$(find xacro)/xacro.py $(arg lms)" />-->
+
+ <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>-->
+
+  <!-- start robot state publisher -->
+  <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen"/>-->
+
+  <include file="$(find lms1xx)/launch/LMS1xx.launch" />
+  <include file="$(find patrol_robot)/launch/gmapping_static.launch" />   
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find patrol_robot)/rviz/pgmapping.rviz"/>   
+
+
+</launch>

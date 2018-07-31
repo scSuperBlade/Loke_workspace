@@ -1,0 +1,7 @@
+# CMake generated Testfile for 
+# Source directory: /home/dji/roborts_ws/src/RoboRTS/modules/planning/local_planner
+# Build directory: /home/dji/roborts_ws/build/RoboRTS/modules/planning/local_planner
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs(timed_elastic_band)

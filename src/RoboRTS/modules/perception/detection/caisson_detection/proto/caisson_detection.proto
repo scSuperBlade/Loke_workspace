@@ -1,0 +1,12 @@
+syntax = "proto2";
+//package rrts.detection;
+
+message CaissonDetectionParams {
+    optional int32 Pcanny = 1;
+    optional float SML = 2;
+    optional int32 nGaussianBlurValue = 3;
+    optional float disThr = 4;
+    optional int32 fps = 5;
+    optional int32 minArea = 6;
+    optional int32 maxArea = 7;
+}

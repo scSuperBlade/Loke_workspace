@@ -1,0 +1,6 @@
+<launch>
+
+  <!-- Run the My Node -->
+  <node pkg="cvCamera" type="camera" name="my_node" respawn="false" />
+
+</launch>

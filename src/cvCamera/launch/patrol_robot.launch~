@@ -1,0 +1,4 @@
+<launch>
+<node name="twist_to_motor" pkg="patrol_robot" type="twist_to_motor" output="screen"/>  
+<node name="send_serial" pkg="patrol_robot" type="serialpack.py" output="screen" respawn = "true"/>   
+</launch>
